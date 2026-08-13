@@ -1,76 +1,53 @@
-# Client Recommendations
+# Google Cloud Platform Research
 
-## Client A – Startup Company
+## Brief Overview
 
-### Recommended Platform: AWS
+Google Cloud Platform (GCP), commonly called Google Cloud, is Google's cloud computing platform. It provides infrastructure, storage, databases, networking, analytics, artificial intelligence, machine learning, and application development services.
 
-AWS is recommended because the startup has a limited budget but expects rapid growth. AWS provides scalable services that allow the company to start with a small infrastructure and increase resources as the application gains users. The company could use Amazon EC2 for computing, Amazon S3 for object storage, and Amazon RDS for its database. AWS Lambda could also be used for serverless application functions to reduce the need to manage servers.
+## Global Infrastructure
 
-### Recommended Services
+Google Cloud provides infrastructure across regions and zones around the world. As of July 2026, Google Cloud lists 43 regions and 130 zones across six continents.
 
-- Amazon EC2
-- Amazon S3
-- Amazon RDS
-- AWS Lambda
+## Cloud Management Console
 
----
+Google Cloud Console is a web-based management interface used to create, configure, monitor, and manage Google Cloud resources and services.
 
-## Client B – University
+## Four Core Services
 
-### Recommended Platform: Microsoft Azure
+### 1. Compute Engine
 
-Microsoft Azure is the best choice because the university already uses Windows Server, Microsoft 365, and Active Directory. Azure provides strong integration with Microsoft's existing technologies and identity services. The university could use Azure Virtual Machines for Windows workloads, Microsoft Entra ID for identity management, and Azure SQL Database for database workloads. Azure also supports hybrid environments that can help the university gradually migrate existing services.
+Compute Engine provides virtual machines that can run applications and workloads in Google's infrastructure.
 
-### Recommended Services
+### 2. Cloud Storage
 
-- Azure Virtual Machines
-- Microsoft Entra ID
-- Azure SQL Database
-- Azure Blob Storage
+Cloud Storage provides scalable object storage for application data, backups, media, and other files.
 
----
+### 3. Cloud SQL
 
-## Client C – AI Research Company
+Cloud SQL is a managed relational database service supporting databases such as MySQL, PostgreSQL, and SQL Server.
 
-### Recommended Platform: Google Cloud Platform
+### 4. Google Kubernetes Engine
 
-Google Cloud is recommended because the company develops artificial intelligence and machine learning applications requiring high-performance computing. Google Cloud provides specialized infrastructure and services for AI and machine learning workloads. The company could use Compute Engine for high-performance virtual machines, Google Kubernetes Engine for containerized workloads, and Google Cloud Storage for datasets. Vertex AI can also support the development and deployment of machine learning applications.
+Google Kubernetes Engine (GKE) is a managed Kubernetes service used to deploy and manage containerized applications.
 
-### Recommended Services
+## Three Advantages
 
-- Compute Engine
-- Google Kubernetes Engine
-- Cloud Storage
-- Vertex AI
+1. Strong artificial intelligence and machine learning capabilities.
+2. Strong Kubernetes and container technologies.
+3. Google's high-performance global network.
 
----
+## Typical Enterprise Use Cases
 
-## Client D – Global E-Commerce Company
+Google Cloud is commonly used for artificial intelligence, machine learning, data analytics, containerized applications, web applications, databases, and globally distributed systems.
 
-### Recommended Platform: AWS
+## Evidence
 
-AWS is recommended for the global e-commerce company because it provides extensive global infrastructure and scalable services. The company can distribute applications across multiple regions and Availability Zones to improve availability. Amazon EC2 can provide computing resources, Elastic Load Balancing can distribute traffic, and Amazon RDS can provide managed databases. Auto Scaling can automatically adjust computing capacity based on demand.
+Screenshot of the Google Cloud official website or Cloud Console:
 
-### Recommended Services
+![Google Cloud Screenshot](screenshots/gcp-console.png)
 
-- Amazon EC2
-- Elastic Load Balancing
-- Amazon RDS
-- AWS Auto Scaling
+## Sources
 
----
-
-# Multi-Cloud Decision Matrix
-
-| Business Requirement | Recommended Platform | Justification |
-|---|---|---|
-| Startup Company | AWS | Broad services, scalability, and flexible infrastructure |
-| Enterprise Organization | AWS | Mature ecosystem and extensive enterprise services |
-| Microsoft Environment | Azure | Strong Microsoft and identity integration |
-| AI / Machine Learning | Google Cloud | Strong AI/ML infrastructure and services |
-| Kubernetes Deployment | Google Cloud | Strong Kubernetes capabilities through GKE |
-| Global Web Application | AWS | Extensive global infrastructure and scalability |
-
-## Conclusion
-
-The best cloud provider depends on the organization's requirements rather than popularity alone. AWS is a strong general-purpose choice, Azure is especially suitable for Microsoft-based environments, and Google Cloud is particularly strong for AI, machine learning, data, and Kubernetes workloads.
+- Google Cloud Infrastructure: https://cloud.google.com/infrastructure
+- Google Cloud Locations: https://cloud.google.com/about/locations/
+- Google Cloud Products: https://cloud.google.com/products
